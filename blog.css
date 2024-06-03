@@ -1,0 +1,16 @@
+.post-card {
+    margin-bottom: 20px;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+}
+
+.post-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
