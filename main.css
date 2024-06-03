@@ -1,0 +1,77 @@
+.info-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin-top: 20px;
+}
+.info-container h2 {
+    margin-bottom: 15px;
+}
+.info-container p {
+    margin-bottom: 20px;
+}
+.review-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin-top: 20px;
+}
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.review-header .icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.review-header .name {
+    font-weight: bold;
+    margin-right: auto;
+}
+.review-header .date {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.review-text {
+    margin-bottom: 10px;
+}
+.review-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.carousel-container {
+    width: 100%;
+    max-width: 800px; /* Максимальная ширина для больших экранов */
+    height: auto; /* Автоматическая высота */
+    aspect-ratio: 16 / 9; /* Пропорции контейнера */
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Масштабировать изображение, сохраняя пропорции и не обрезая */
+}
+@media (max-width: 1200px) {
+    .carousel-container {
+        max-width: 700px; /* Максимальная ширина для экранов до 1200px */
+    }
+}
+@media (max-width: 992px) {
+    .carousel-container {
+        max-width: 600px; /* Максимальная ширина для экранов до 992px */
+    }
+}
+@media (max-width: 768px) {
+    .carousel-container {
+        max-width: 500px; /* Максимальная ширина для экранов до 768px */
+    }
+}
+@media (max-width: 576px) {
+    .carousel-container {
+        max-width: 100%; /* Максимальная ширина для экранов до 576px */
+    }
+}
+
+
